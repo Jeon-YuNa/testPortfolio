@@ -4,6 +4,9 @@ body {
 header {
   color: #efefef;
 }
+article {
+  width: 100%;
+}
 h1 {
   background-image: url("../img/headerlogo-w.png");
 }

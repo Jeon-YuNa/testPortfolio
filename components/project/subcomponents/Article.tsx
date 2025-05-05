@@ -21,7 +21,7 @@ const Article = ({ title, skills, desc, siteURL, likes, id }: ProjectData) => {
         {hasMounted ? displayText : title}
       </h2>
       <ImageBox siteURL={siteURL} title={title} />
-      <UseSkills skills={skills} />/
+      <UseSkills skills={skills} />
       <div className="desc">
         <Description desc={desc} />
       </div>
