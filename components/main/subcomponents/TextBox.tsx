@@ -1,6 +1,3 @@
-"use client";
-import { useState } from "react";
-
 const TextBox = ({ text }: { text: string }) => {
   return (
     <div className="textBox px-4 py-1 mb-4 flex items-center w-fit">
