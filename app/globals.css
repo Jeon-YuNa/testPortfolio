@@ -32,6 +32,8 @@ body {
   overflow: hidden;
   padding: 0 6vw;
   font-family: "GongGothicMedium";
+  background-color: #efefef;
+  color: #444;
 }
 body::-webkit-scrollbar {
   display: none;
