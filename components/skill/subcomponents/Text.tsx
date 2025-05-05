@@ -11,7 +11,7 @@ const Text = ({ text }: { text: string }) => {
 
   return (
     <span
-      className="text font-bold text-2xl rounded-sm cursor-pointer"
+      className="text text-2xl rounded-sm cursor-pointer"
       onMouseEnter={startScramble}
     >
       {displayText}

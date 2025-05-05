@@ -17,9 +17,7 @@ const Article = ({ title, skills, desc, siteURL, likes, id }: ProjectData) => {
 
   return (
     <article>
-      <h2 className="font-bold text-4xl pt-6 mb-6">
-        {hasMounted ? displayText : title}
-      </h2>
+      <h2 className="text-4xl pt-6 mb-6">{hasMounted ? displayText : title}</h2>
       <ImageBox siteURL={siteURL} title={title} />
       <UseSkills skills={skills} />
       <div className="desc">

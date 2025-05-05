@@ -1,11 +1,11 @@
 "use client";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "../../css/project.css";
 import { useEffect, useState } from "react";
 import TabBtn from "./subcomponents/TabBtn";
 import Article from "./subcomponents/Article";
 import { ProjectDataTest } from "./data/projectData";
+import "../../css/project.css";
 
 const Project = () => {
   const [activeTab, setActiveTab] = useState<number>(0);

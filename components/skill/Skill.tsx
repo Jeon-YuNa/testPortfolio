@@ -19,7 +19,7 @@ const Skill = () => {
   return (
     <section id="skill" className="flex pt-16">
       <article data-aos="fade-down">
-        <h2 className="font-bold text-4xl pt-6 mb-6">Skill Stacks</h2>
+        <h2 className="text-4xl pt-6 mb-6">Skill Stacks</h2>
         <div>
           <div className="box p-10">
             <Icons icon={<SiAdobephotoshop />} />
@@ -34,7 +34,7 @@ const Skill = () => {
         </div>
       </article>
       <article data-aos="fade-up">
-        <h2 className="font-bold text-4xl pt-6 mb-6">Personal Skills</h2>
+        <h2 className="text-4xl pt-6 mb-6">Personal Skills</h2>
         <div className="text-wrap">
           <Text text="Planning and Design"></Text>
           <Text text="adaptability"></Text>

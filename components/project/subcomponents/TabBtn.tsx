@@ -4,7 +4,7 @@ type TabBtnProps = {
 };
 const TabBtn = ({ text, event }: TabBtnProps) => {
   return (
-    <span className="px-6 py-2 text-xs w-fit font-medium" onClick={event}>
+    <span className="px-6 py-2 text-xs w-fit" onClick={event}>
       {text}
     </span>
   );
