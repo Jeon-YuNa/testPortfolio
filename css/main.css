@@ -1,32 +1,4 @@
 /* 메인css */
-body {
-  background-color: #efefef;
-}
-header {
-  color: #444;
-}
-article {
-  width: 100%;
-}
-h1 {
-  background-image: url("../img/headerlogo.png");
-}
-/* 서브컴포넌트 */
-.textBox {
-  border: 1px solid #444;
-}
-.textBox .dot {
-  background-color: #444;
-}
-.textBox .gauge {
-  background-color: #444;
-}
-.textBox:hover span {
-  color: #efefef;
-}
-.textBox:hover .dot {
-  background-color: #efefef;
-}
 
 main {
   width: 100%;

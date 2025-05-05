@@ -14,10 +14,8 @@ const Clock = () => {
 
   return (
     <div className="clock">
-      <span className="ampm font-black text-3xl mr-4">{momentAMPM}</span>
-      <span className="time font-black text-6xl inline-block w-[18vw]">
-        {time}
-      </span>
+      <span className="ampm text-3xl mr-4">{momentAMPM}</span>
+      <span className="time text-6xl inline-block w-[18vw]">{time}</span>
     </div>
   ); // 텍스트만 리턴하는 컴포넌트
 };

@@ -17,6 +17,20 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "2025 전유나 포트폴리오",
   description: "포트폴리오 웹 사이트 입니다.",
+  openGraph: {
+    url: "https://test-portfolio-sable-eight.vercel.app",
+    siteName: "포트폴리오 웹사이트",
+    images: [
+      {
+        url: "https://test-portfolio-sable-eight.vercel.app/og.png",
+        width: 800,
+        height: 600,
+        alt: "오픈그래프 이미지지",
+      },
+    ],
+    locale: "ko_KR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
