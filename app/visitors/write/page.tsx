@@ -2,7 +2,6 @@
 
 import "../../../css/visitors.css";
 import { firstNames, lastNames } from "@/components/visitor/data/nicknameData";
-import { createVisitors } from "@/utils/api";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 

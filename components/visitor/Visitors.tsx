@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import "../../css/visitors.css";
 import TextBox from "../main/subcomponents/TextBox";
@@ -10,7 +9,6 @@ interface Guestbook {
 }
 
 const Visitors = () => {
-  // ✅ 임시 방명록 데이터
   const [guestbooks, setGuestbooks] = useState<Guestbook[]>([]);
 
   useEffect(() => {
