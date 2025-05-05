@@ -22,10 +22,10 @@ export const metadata: Metadata = {
     siteName: "포트폴리오 웹사이트",
     images: [
       {
-        url: "https://test-portfolio-sable-eight.vercel.app/og.png",
+        url: "../img/og.png",
         width: 800,
         height: 600,
-        alt: "오픈그래프 이미지지",
+        alt: "오픈그래프 이미지",
       },
     ],
     locale: "ko_KR",
